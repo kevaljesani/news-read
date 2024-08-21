@@ -1,0 +1,25 @@
+/* app-news-card.component.css */
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures the card fills its container height */
+  }
+  
+  .card-body {
+    flex: 1; /* Allows the card body to expand and push the footer if needed */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Makes sure the card stretches to fill the column */
+    border: 1px solid #ddd; /* Optional: adds border for visual separation */
+    border-radius: 0.25rem; /* Optional: rounds corners */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Optional: adds shadow */
+  }
+  
+  .card-header,
+  .card-footer {
+    flex-shrink: 0; /* Prevents shrinking of header and footer */
+  }
+  

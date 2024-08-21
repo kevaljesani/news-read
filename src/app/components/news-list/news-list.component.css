@@ -1,0 +1,28 @@
+html, body {
+    /* height: 70%; */
+    margin: 0;
+  }
+  
+  .container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .w-100 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
